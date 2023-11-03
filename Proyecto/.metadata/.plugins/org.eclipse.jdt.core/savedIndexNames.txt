@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\IS2_2023B\Proyecto\.metadata\.plugins\org.eclipse.jdt.core
+3919794232.index
+1865797976.index
+4066271273.index

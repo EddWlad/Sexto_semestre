@@ -1,0 +1,25 @@
+package Semana5.Adapter;
+
+public class Adapter implements Target
+{
+	private Adaptee adaptee;
+	private Adaptee1 adaptee1;
+	
+	Adapter(Adaptee adaptee)
+	{
+		this.adaptee = adaptee;
+	}
+
+	@Override
+	public void request() {
+		adaptee.specificRequest();
+		
+	}
+
+	@Override
+	public void cambio() {
+		adaptee1.specificCambio();
+		
+	}
+	
+}

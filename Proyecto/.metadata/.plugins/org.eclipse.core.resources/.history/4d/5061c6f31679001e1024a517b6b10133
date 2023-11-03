@@ -1,0 +1,9 @@
+package Semana5.Adapter;
+
+public class Adaptee1 
+{
+	void specificCambio()
+	{
+		System.out.println("Aqui se realizo un cambio");
+	}
+}

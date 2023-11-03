@@ -1,0 +1,13 @@
+package Semana5;
+
+public class principal {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hola mundo");
+		//patron singleton debe tener un constructor privado de esta forma se llama al constructor mediante el metodo getInstancia
+		Singleton instancia1 = Singleton.getInstancia();
+
+	}
+
+}

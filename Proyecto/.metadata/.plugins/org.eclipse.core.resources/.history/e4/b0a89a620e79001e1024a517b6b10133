@@ -1,0 +1,13 @@
+package Semana5;
+
+public class Singleton 
+{
+	// se declara una variable de tipo Singleton llamada instancia
+	private static Singleton instancia;
+	//constructor vacio de la clase Singleton
+	public Singleton()
+	{
+		
+	}
+	
+}
