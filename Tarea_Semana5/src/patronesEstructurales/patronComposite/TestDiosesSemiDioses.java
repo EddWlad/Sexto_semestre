@@ -22,9 +22,6 @@ public class TestDiosesSemiDioses {
 		titan.agregarDios(titan2);
 		
 		titan.mostrarDioses();
-		
-		
-		
 	}
 
 }

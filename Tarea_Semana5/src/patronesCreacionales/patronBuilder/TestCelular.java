@@ -3,7 +3,8 @@ package patronesCreacionales.patronBuilder;
 public class TestCelular {
 
 	public static void main(String[] args) {
-		Celular celular = new Celular.builderCelular().setMarca("BISON").setModelo("PRO X10").setRam(16)
+		Celular celular = new Celular.builderCelular().setMarca("BISON")
+				.setModelo("PRO X10").setRam(16)
 				.setAlmacenamiento(256).buildCelular();
 		
 		System.out.println("Marca: "+celular.getMarca());
